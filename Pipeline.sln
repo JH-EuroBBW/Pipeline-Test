@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipeline", "Pipeline\Pipeline.csproj", "{90CB7B1E-14EB-4E4E-8431-C76D2834942C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipeline.Test", "Pipeline.Test\Pipeline.Test.csproj", "{DFCD90D5-0BDC-4188-AED4-DAF1E02B0BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{90CB7B1E-14EB-4E4E-8431-C76D2834942C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90CB7B1E-14EB-4E4E-8431-C76D2834942C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90CB7B1E-14EB-4E4E-8431-C76D2834942C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCD90D5-0BDC-4188-AED4-DAF1E02B0BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCD90D5-0BDC-4188-AED4-DAF1E02B0BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCD90D5-0BDC-4188-AED4-DAF1E02B0BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCD90D5-0BDC-4188-AED4-DAF1E02B0BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

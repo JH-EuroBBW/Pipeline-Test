@@ -3,6 +3,8 @@ using Pipeline.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// test
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
